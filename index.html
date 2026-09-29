@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="MiniAcad, plataforma de cursos educativos para niños menores de 10 años.">
+
+    <title>MiniAcad | Aprende jugando</title>
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Hoja de estilos responsiva -->
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+
+    <!-- Enlace para usuarios de teclado y lectores de pantalla -->
+    <a class="saltar-contenido" href="#contenido">
+        Saltar al contenido
+    </a>
+
+    <!-- ==================== ENCABEZADO ==================== -->
+    <header class="encabezado">
+
+        <div class="contenedor encabezado-contenido">
+
+            <!-- Logo -->
+            <a class="logo" href="index.html" aria-label="MiniAcad, página principal">
+                <span class="logo-icono" aria-hidden="true">🎓</span>
+                <span>MiniAcad</span>
+            </a>
+
+            <!-- Navegación principal -->
+            <nav class="navegacion-principal"
+                 aria-label="Navegación principal">
+
+                <ul class="menu">
+
+                    <li>
+                        <a href="index.html" aria-current="page">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#cursos">
+                            Cursos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#sobre-nosotros">
+                            Sobre MiniAcad
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="IA.html">
+                            Uso de IA
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+    <main id="contenido">
+
+        <!-- ==================== HERO ==================== -->
+        <section class="hero"
+                 aria-labelledby="titulo-principal">
+
+            <div class="contenedor hero-contenido">
+
+                <div class="hero-texto">
+
+                    <p class="etiqueta">
+                        🎉 ¡Aprender es divertido!
+                    </p>
+
+                    <h1 id="titulo-principal">
+                        Aprende cosas nuevas jugando
+                    </h1>
+
+                    <p class="hero-descripcion">
+                        Bienvenido a MiniAcad, un lugar donde los niños
+                        pueden aprender matemáticas, seguridad,
+                        habilidades para la vida y mucho más.
+                    </p>
+
+                    <a class="boton boton-principal"
+                       href="#cursos">
+                        Explorar cursos
+                    </a>
+
+                </div>
+
+                <div class="hero-ilustracion"
+                     aria-hidden="true">
+
+                    <div class="personaje">
+                        🧒📚
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== CURSOS ==================== -->
+        <section id="cursos"
+                 class="seccion cursos"
+                 aria-labelledby="titulo-cursos">
+
+            <div class="contenedor">
+
+                <header class="seccion-encabezado">
+
+                    <p class="etiqueta">
+                        📚 Nuestros cursos
+                    </p>
+
+                    <h2 id="titulo-cursos">
+                        Elige algo para aprender
+                    </h2>
+
+                    <p>
+                        Explora nuestros cursos y aprende paso a paso
+                        con actividades sencillas y divertidas.
+                    </p>
+
+                </header>
+
+
+                <!-- Catálogo usando CSS Grid -->
+                <div class="catalogo-cursos">
+
+
+                    <!-- CURSO 1 -->
+                    <article class="tarjeta-curso">
+
+                        <div class="tarjeta-imagen">
+                            <img
+                                src="img/sumar.jpg"
+                                alt="Niños aprendiendo a sumar con números y dibujos">
+                        </div>
+
+                        <div class="tarjeta-contenido">
+
+                            <span class="curso-numero">
+                                Curso 1
+                            </span>
+
+                            <h3>
+                                Aprendo a sumar
+                            </h3>
+
+                            <p>
+                                Aprende qué es sumar y practica
+                                sumas sencillas hasta 10.
+                            </p>
+
+                            <ul class="lista-lecciones"
+                                aria-label="Lecciones del curso">
+
+                                <li>Qué es sumar</li>
+                                <li>Sumas hasta 10</li>
+                                <li>Sumas con dibujos</li>
+
+                            </ul>
+
+                            <a class="boton boton-curso"
+                               href="cursos/sumar.html">
+                                Ver curso
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CURSO 2 -->
+                    <article class="tarjeta-curso">
+
+                        <div class="tarjeta-imagen">
+                            <img
+                                src="img/dividir.jpg"
+                                alt="Niño aprendiendo a repartir objetos en partes iguales">
+                        </div>
+
+                        <div class="tarjeta-contenido">
+
+                            <span class="curso-numero">
+                                Curso 2
+                            </span>
+
+                            <h3>
+                                Aprendo a dividir
+                            </h3>
+
+                            <p>
+                                Descubre cómo repartir objetos
+                                en partes iguales.
+                            </p>
+
+                            <ul class="lista-lecciones"
+                                aria-label="Lecciones del curso">
+
+                                <li>Repartir en partes iguales</li>
+                                <li>La división con objetos</li>
+                                <li>Práctica</li>
+
+                            </ul>
+
+                            <a class="boton boton-curso"
+                               href="cursos/dividir.html">
+                                Ver curso
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CURSO 3 -->
+                    <article class="tarjeta-curso">
+
+                        <div class="tarjeta-imagen">
+                            <img
+                                src="img/zapatos.jpg"
+                                alt="Niño aprendiendo a amarrarse los zapatos">
+                        </div>
+
+                        <div class="tarjeta-contenido">
+
+                            <span class="curso-numero">
+                                Curso 3
+                            </span>
+
+                            <h3>
+                                Aprendo a amarrarme los zapatos
+                            </h3>
+
+                            <p>
+                                Aprende paso a paso cómo hacer
+                                un nudo y amarrar tus zapatos.
+                            </p>
+
+                            <ul class="lista-lecciones"
+                                aria-label="Lecciones del curso">
+
+                                <li>Partes del cordón</li>
+                                <li>El nudo base</li>
+                                <li>Las dos orejas de conejo</li>
+
+                            </ul>
+
+                            <a class="boton boton-curso"
+                               href="cursos/zapatos.html">
+                                Ver curso
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CURSO 4 -->
+                    <article class="tarjeta-curso">
+
+                       <div class="tarjeta-imagen">
+    <img
+        src="img/maluma.jpg"
+        alt="Maluma">
+</div>
+
+                        <div class="tarjeta-contenido">
+
+                            <span class="curso-numero">
+                                Curso 4
+                            </span>
+
+                            <h3>
+                                Me cuido en internet
+                            </h3>
+
+                            <p>
+                                Aprende a proteger tus datos
+                                y navegar de manera segura.
+                            </p>
+
+                            <ul class="lista-lecciones"
+                                aria-label="Lecciones del curso">
+
+                                <li>Mis datos son míos</li>
+                                <li>No hablo con desconocidos</li>
+                                <li>Le cuento a un adulto</li>
+
+                            </ul>
+
+                            <a class="boton boton-curso"
+                               href="cursos/internet-seguro.html">
+                                Ver curso
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== SOBRE MIN IACAD ==================== -->
+        <section id="sobre-nosotros"
+                 class="seccion sobre"
+                 aria-labelledby="titulo-sobre">
+
+            <div class="contenedor sobre-contenido">
+
+                <div>
+
+                    <p class="etiqueta">
+                        ⭐ Sobre MiniAcad
+                    </p>
+
+                    <h2 id="titulo-sobre">
+                        Aprender puede ser fácil y divertido
+                    </h2>
+
+                    <p>
+                        MiniAcad es una plataforma educativa creada
+                        para que los niños menores de 10 años puedan
+                        aprender de manera sencilla, clara y divertida.
+                    </p>
+
+                    <p>
+                        Cada curso contiene pequeñas lecciones,
+                        imágenes, videos y actividades para ayudar
+                        a comprender cada tema.
+                    </p>
+
+                </div>
+
+                <div class="sobre-lista">
+
+                    <h3>
+                        En MiniAcad encontrarás:
+                    </h3>
+
+                    <ul>
+                        <li>📚 Lecciones fáciles de entender</li>
+                        <li>🎥 Videos educativos</li>
+                        <li>🖼️ Imágenes ilustrativas</li>
+                        <li>⌨️ Navegación accesible</li>
+                        <li>💡 Actividades para aprender</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== LLAMADO A LA ACCIÓN ==================== -->
+        <section class="seccion llamada-accion"
+                 aria-labelledby="titulo-final">
+
+            <div class="contenedor">
+
+                <h2 id="titulo-final">
+                    ¿Listo para aprender?
+                </h2>
+
+                <p>
+                    Elige un curso y comienza una nueva aventura.
+                </p>
+
+                <a class="boton boton-principal"
+                   href="#cursos">
+                    Ver todos los cursos
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== PIE DE PÁGINA ==================== -->
+    <footer class="pie-pagina">
+
+        <div class="contenedor pie-contenido">
+
+            <div>
+
+                <h2 class="pie-titulo">
+                    🎓 MiniAcad
+                </h2>
+
+                <p>
+                    Aprende, juega y descubre.
+                </p>
+
+            </div>
+
+
+            <nav aria-label="Navegación del pie de página">
+
+                <h2 class="pie-subtitulo">
+                    Enlaces
+                </h2>
+
+                <ul class="pie-enlaces">
+
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#cursos">
+                            Cursos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="IA.html">
+                            Uso de IA
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <div>
+
+                <h2 class="pie-subtitulo">
+                    Accesibilidad
+                </h2>
+
+                <p>
+                    MiniAcad está diseñado para poder
+                    utilizarse con teclado y lectores de pantalla.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="pie-final">
+
+            <p>
+                © 2026 MiniAcad · Proyecto CSS Essentials
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
